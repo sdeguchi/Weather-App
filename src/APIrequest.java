@@ -5,10 +5,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class APIrequest {
-    String API = "http://api.openweathermap.org/data/2.5/weather?q=";
-    String APIkey = "&APPID=8268f3b2e8feb0f6da6bc59a59929958";
 
-    public String getHTML(String city) throws IOException {
+
+    public String getHTML(String city, String API) throws IOException {
+        String APIkey = "&APPID=8268f3b2e8feb0f6da6bc59a59929958";
         StringBuilder content = new StringBuilder();
 
         try {
