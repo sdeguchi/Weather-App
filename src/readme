@@ -1,0 +1,13 @@
+Unzip the Program2 zip and extract the 'src' directory to your preferred location. 
+Open a terminal window and change directory into the 'src' directory that has just been extracted. 
+
+Run the following commands to compile all the source code, and then execute the weather application:
+./p2.sh
+java WeatherGUI
+
+If p2.sh is not executable run:
+sudo chmod +x p2.sh
+And type your password to make it an executable.
+
+p2.sh contains the javac command that will compile all the source code and the needed jar files.
+
